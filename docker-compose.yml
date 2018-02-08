@@ -14,9 +14,8 @@ services:
             - "8000:80" # web
             - "2222:22" # ssh
             - "33306:3306"
-        volumes:
-            - ../cms:/var/www/html/shukran/cms #configure your project directory path here
-            - ../api:/var/www/html/shukran/api  #configure your project directory path here
+        volumes_from:
+            - volumes_source
         # env_file: .env
         restart: always
 
@@ -28,9 +27,8 @@ services:
             context: ./docker/nginx
             args:
                 - PHP_UPSTREAM=${PHP_UPSTREAM}
-        volumes:
-            - ../cms:/var/www/html/shukran/cms #configure your project directory path here
-            - ../api:/var/www/html/shukran/api  #configure your project directory path here
+        volumes_from:
+            - volumes_source
         ports:
             - "8001:80"
             - "444:443"
@@ -78,3 +76,7 @@ services:
         ports:
             - 8003:80
 
+    volumes_source:
+        image: tianon/true
+        volumes:
+            - ..:/var/www/html/shukran

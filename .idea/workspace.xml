@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a19d0d0-35a3-42bb-9ee5-ec5d5b34ba7e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/nginx/sites/api.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/nginx/sites/cms.conf" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/sites/vhost.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ib_buffer_pool" afterPath="$PROJECT_DIR$/data/mysql/ib_buffer_pool" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ib_logfile0" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ibdata1" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ibtmp1" afterPath="$PROJECT_DIR$/data/mysql/ibtmp1" />
+      <change beforePath="$PROJECT_DIR$/data/redis/dump.rdb" afterPath="$PROJECT_DIR$/data/redis/dump.rdb" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change beforePath="$PROJECT_DIR$/docker/php-fpm/5.6/Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/php-fpm/5.6/conf/php.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/php-fpm/5.6/conf/www.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/php-fpm/7.0/Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/php-fpm/7.0/conf/php.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/php-fpm/7.0/conf/www.conf" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +28,18 @@
       <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/nginx/conf/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="180">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/nginx/sites/api.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -125,12 +144,12 @@
         <option value="$PROJECT_DIR$/docker/nginx/sites/test.conf" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/docker/nginx/Dockerfile" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/php-fpm/7.1/conf/www.conf" />
         <option value="$PROJECT_DIR$/docker/php-fpm/7.1/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/nginx/sites/vhost.conf" />
         <option value="$PROJECT_DIR$/docker/nginx/sites/cms.conf" />
         <option value="$PROJECT_DIR$/docker/nginx/sites/api.conf" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -195,14 +214,6 @@
               <item name="docker-ns" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker-ns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mysql" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="5.7" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="conf" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docker-ns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-ns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="nginx" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -239,6 +250,12 @@
               <item name="php-fpm" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="7.1" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="conf" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="docker-ns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-ns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="phpmyadmin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -280,7 +297,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518080462022</updated>
-      <workItem from="1518080463294" duration="9351000" />
+      <workItem from="1518080463294" duration="9751000" />
     </task>
     <task id="LOCAL-00001" summary="build working">
       <created>1518090055373</created>
@@ -296,11 +313,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518090675082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Separate vhost added">
+      <created>1518090774391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518090774391</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9351000" />
+    <option name="totallyTimeSpent" value="9751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -335,7 +359,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build working" />
     <MESSAGE value="build working vhost added" />
-    <option name="LAST_COMMIT_MESSAGE" value="build working vhost added" />
+    <MESSAGE value="Separate vhost added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Separate vhost added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -365,22 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/conf/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -451,8 +460,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker/nginx/sites/api.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/conf/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding />
         </state>
       </provider>
