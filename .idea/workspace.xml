@@ -2,361 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a19d0d0-35a3-42bb-9ee5-ec5d5b34ba7e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.env" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/docker-ns.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LICENSE.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/auto.cnf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/ca-key.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/ca.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/client-cert.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/client-key.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/ib_buffer_pool" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/ibtmp1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/columns_priv.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/columns_priv.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/columns_priv.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/db.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/db.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/db.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/db.opt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/engine_cost.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/engine_cost.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/event.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/event.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/event.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/func.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/func.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/func.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/general_log.CSM" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/general_log.CSV" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/general_log.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/gtid_executed.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/gtid_executed.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/help_category.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/help_category.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/help_keyword.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/help_keyword.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/help_relation.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/help_relation.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/help_topic.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/help_topic.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/innodb_index_stats.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/innodb_index_stats.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/innodb_table_stats.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/innodb_table_stats.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/ndb_binlog_index.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/ndb_binlog_index.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/ndb_binlog_index.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/plugin.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/plugin.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/proc.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/proc.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/proc.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/procs_priv.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/procs_priv.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/procs_priv.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/proxies_priv.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/proxies_priv.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/proxies_priv.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/server_cost.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/server_cost.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/servers.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/servers.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slave_master_info.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slave_master_info.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slave_relay_log_info.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slave_relay_log_info.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slave_worker_info.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slave_worker_info.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slow_log.CSM" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slow_log.CSV" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/slow_log.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/tables_priv.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/tables_priv.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/tables_priv.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone_leap_second.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone_leap_second.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone_name.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone_transition.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone_transition.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone_transition_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/time_zone_transition_type.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/user.MYD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/user.MYI" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/mysql/user.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/accounts.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/cond_instances.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/db.opt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_stages_current.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_stages_history.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_stages_history_long.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_stages_summary_by_account_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_stages_summary_by_host_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_stages_summary_by_thread_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_stages_summary_by_user_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_stages_summary_global_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_current.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_history.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_history_long.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_summary_by_account_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_summary_by_digest.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_summary_by_host_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_summary_by_program.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_summary_by_thread_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_summary_by_user_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_statements_summary_global_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_transactions_current.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_transactions_history.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_transactions_history_long.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_transactions_summary_by_account_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_transactions_summary_by_host_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_transactions_summary_by_thread_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_transactions_summary_by_user_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_transactions_summary_global_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_current.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_history.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_history_long.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_summary_by_account_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_summary_by_host_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_summary_by_instance.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_summary_by_thread_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_summary_by_user_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/events_waits_summary_global_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/file_instances.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/file_summary_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/file_summary_by_instance.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/global_status.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/global_variables.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/host_cache.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/hosts.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/memory_summary_by_account_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/memory_summary_by_host_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/memory_summary_by_thread_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/memory_summary_by_user_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/memory_summary_global_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/metadata_locks.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/mutex_instances.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/objects_summary_global_by_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/performance_timers.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/prepared_statements_instances.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/replication_applier_configuration.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/replication_applier_status.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/replication_applier_status_by_coordinator.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/replication_applier_status_by_worker.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/replication_connection_configuration.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/replication_connection_status.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/replication_group_member_stats.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/replication_group_members.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/rwlock_instances.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/session_account_connect_attrs.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/session_connect_attrs.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/session_status.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/session_variables.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/setup_actors.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/setup_consumers.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/setup_instruments.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/setup_objects.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/setup_timers.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/socket_instances.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/socket_summary_by_event_name.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/socket_summary_by_instance.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/status_by_account.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/status_by_host.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/status_by_thread.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/status_by_user.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/table_handles.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/table_io_waits_summary_by_index_usage.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/table_io_waits_summary_by_table.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/table_lock_waits_summary_by_table.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/threads.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/user_variables_by_thread.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/users.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/performance_schema/variables_by_thread.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/private_key.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/public_key.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/server-cert.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/server-key.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/activity_log.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/activity_log.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/brand_city.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/brand_city.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/brand_translations.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/brand_translations.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/brands.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/brands.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/cities.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/cities.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/city_translations.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/city_translations.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/countries.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/countries.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/country_translations.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/country_translations.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/db.opt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/media.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/media.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/migrations.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/migrations.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_access_tokens.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_access_tokens.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_auth_codes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_auth_codes.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_clients.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_clients.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_personal_access_clients.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_personal_access_clients.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_refresh_tokens.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/oauth_refresh_tokens.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/password_resets.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/password_resets.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/user_activations.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/user_activations.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/users.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/shukran/users.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/db.opt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/host_summary.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/host_summary_by_file_io.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/host_summary_by_file_io_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/host_summary_by_stages.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/host_summary_by_statement_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/host_summary_by_statement_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/innodb_buffer_stats_by_schema.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/innodb_buffer_stats_by_table.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/innodb_lock_waits.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/io_by_thread_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/io_global_by_file_by_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/io_global_by_file_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/io_global_by_wait_by_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/io_global_by_wait_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/latest_file_io.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/memory_by_host_by_current_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/memory_by_thread_by_current_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/memory_by_user_by_current_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/memory_global_by_current_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/memory_global_total.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/metrics.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/processlist.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/ps_check_lost_instrumentation.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_auto_increment_columns.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_index_statistics.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_object_overview.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_redundant_indexes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_table_lock_waits.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_table_statistics.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_table_statistics_with_buffer.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_tables_with_full_table_scans.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/schema_unused_indexes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/session.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/session_ssl_status.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/statement_analysis.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/statements_with_errors_or_warnings.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/statements_with_full_table_scans.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/statements_with_runtimes_in_95th_percentile.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/statements_with_sorting.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/statements_with_temp_tables.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/sys_config.TRG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/sys_config.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/sys_config.ibd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/sys_config_insert_set_user.TRN" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/sys_config_update_set_user.TRN" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/user_summary.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/user_summary_by_file_io.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/user_summary_by_file_io_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/user_summary_by_stages.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/user_summary_by_statement_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/user_summary_by_statement_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/version.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/wait_classes_global_by_avg_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/wait_classes_global_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/waits_by_host_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/waits_by_user_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/waits_global_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024host_summary.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024host_summary_by_file_io.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024host_summary_by_file_io_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024host_summary_by_stages.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024host_summary_by_statement_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024host_summary_by_statement_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024innodb_buffer_stats_by_schema.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024innodb_buffer_stats_by_table.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024innodb_lock_waits.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024io_by_thread_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024io_global_by_file_by_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024io_global_by_file_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024io_global_by_wait_by_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024io_global_by_wait_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024latest_file_io.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024memory_by_host_by_current_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024memory_by_thread_by_current_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024memory_by_user_by_current_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024memory_global_by_current_bytes.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024memory_global_total.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024processlist.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024ps_digest_95th_percentile_by_avg_us.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024ps_digest_avg_latency_distribution.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024ps_schema_table_statistics_io.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024schema_flattened_keys.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024schema_index_statistics.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024schema_table_lock_waits.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024schema_table_statistics.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024schema_table_statistics_with_buffer.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024schema_tables_with_full_table_scans.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024session.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024statement_analysis.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024statements_with_errors_or_warnings.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024statements_with_full_table_scans.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024statements_with_runtimes_in_95th_percentile.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024statements_with_sorting.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024statements_with_temp_tables.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024user_summary.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024user_summary_by_file_io.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024user_summary_by_file_io_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024user_summary_by_stages.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024user_summary_by_statement_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024user_summary_by_statement_type.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024wait_classes_global_by_avg_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024wait_classes_global_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024waits_by_host_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024waits_by_user_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/mysql/sys/x@0024waits_global_by_latency.frm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/redis/dump.rdb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker-useful-commands.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/codebox/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/codebox/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/mysql/5.7/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/mysql/5.7/bin/docker-entrypoint.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/mysql/5.7/conf/my.cnf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/nginx/conf/nginx.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/nginx/sites/vhost.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/5.6/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/5.6/conf/php.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/5.6/conf/www.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/7.0/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/7.0/conf/php.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/7.0/conf/www.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/7.1/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/7.1/conf/php.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/php-fpm/7.1/conf/www.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/phpmyadmin/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/redis/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/nginx/access.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/nginx/error.log" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ibtmp1" afterPath="$PROJECT_DIR$/data/mysql/ibtmp1" />
+      <change beforePath="$PROJECT_DIR$/docker/codebox/Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/codebox/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/5.7/bin/docker-entrypoint.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/sites/vhost.conf" afterPath="$PROJECT_DIR$/docker/nginx/sites/vhost.conf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -390,28 +41,18 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/nginx/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/codebox/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vhost.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vhost.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker/nginx/sites/vhost.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -430,18 +71,18 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/mysql/5.7/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="180">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/php-fpm/7.1/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="156">
+              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -472,6 +113,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>PHP_SOCKET</find>
+      <find>libmagickwand</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -484,10 +126,10 @@
         <option value="$PROJECT_DIR$/docker/nginx/sites/test.conf" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/docker/nginx/Dockerfile" />
-        <option value="$PROJECT_DIR$/docker/nginx/sites/vhost.conf" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/php-fpm/7.1/conf/www.conf" />
         <option value="$PROJECT_DIR$/docker/php-fpm/7.1/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/nginx/sites/vhost.conf" />
       </list>
     </option>
   </component>
@@ -539,12 +181,6 @@
               <item name="docker-ns" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker-ns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codebox" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docker-ns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-ns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="mysql" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -553,14 +189,6 @@
               <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="mysql" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="5.7" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="docker-ns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-ns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mysql" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="5.7" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="docker-ns" type="b2602c69:ProjectViewProjectNode" />
@@ -651,12 +279,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518080462022</updated>
-      <workItem from="1518080463294" duration="8641000" />
+      <workItem from="1518080463294" duration="9253000" />
     </task>
+    <task id="LOCAL-00001" summary="build working">
+      <created>1518090055373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518090055373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8641000" />
+    <option name="totallyTimeSpent" value="9253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -688,6 +324,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="build working" />
+    <option name="LAST_COMMIT_MESSAGE" value="build working" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -708,14 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/mysql/5.7/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -744,22 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/sites/vhost.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/php-fpm/7.1/conf/php.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -776,6 +392,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker/php-fpm/7.1/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -784,10 +408,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/php-fpm/7.1/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/docker/mysql/5.7/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/sites/vhost.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
