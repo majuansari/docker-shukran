@@ -1,0 +1,80 @@
+version: '2'
+
+services:
+
+
+### PHP-FPM  ###
+
+    php-fpm:
+        build:
+            context: ./docker/php-fpm/7.1
+        expose:
+            - "9000"
+        ports:
+            - "8000:80" # web
+            - "2222:22" # ssh
+            - "33306:3306"
+        volumes:
+            - ../cms:/var/www/html/shukran/cms #configure your project directory path here
+            - ../api:/var/www/html/shukran/api  #configure your project directory path here
+        # env_file: .env
+        restart: always
+
+
+#### Nginx ####
+
+    nginx:
+        build:
+            context: ./docker/nginx
+            args:
+                - PHP_UPSTREAM=${PHP_UPSTREAM}
+        volumes:
+            - ../cms:/var/www/html/shukran/cms #configure your project directory path here
+            - ../api:/var/www/html/shukran/api  #configure your project directory path here
+        ports:
+            - "8001:80"
+            - "444:443"
+        links:
+            - php-fpm
+        env_file: .env
+
+### MySQL ###
+
+    mysql:
+        build:
+            context: ./docker/mysql/5.7
+        volumes:
+            - ./data/mysql:/var/lib/mysql
+        ports:
+            - "3306:3306"
+        env_file: .env
+
+
+### Phpmyadmin ###
+
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin:4.7
+        environment:
+            - PMA_ARBITRARY=1
+        restart: always
+        ports:
+            - 8181:80
+        links:
+            - mysql
+
+    redis:
+        image: redis:3.2
+        ports:
+            - 6379:6379
+        volumes:
+            - ./data/redis:/data/
+        restart: always
+
+    ### Mailcatcher ###
+
+    mailcatcher:
+        image: tophfr/mailcatcher
+        restart: always
+        ports:
+            - 8003:80
+
