@@ -1,8 +1,5 @@
-version: '2'
-
+version: '3'
 services:
-
-
 ### PHP-FPM  ###
 
     php-fpm:
@@ -11,15 +8,45 @@ services:
         expose:
             - "9000"
         ports:
-            - "8000:80" # web
             - "2222:22" # ssh
-            - "33306:3306"
-        volumes_from:
-            - volumes_source
+        volumes:
+            - ..:/var/www/html/shukran
         # env_file: .env
+        networks:
+            - shukran-layer
+        extra_hosts:
+            - "cms.local:172.25.0.101"
+            - "api.local:172.25.0.101"
         restart: always
 
+### django ###
+#    django:
+#      build:
+#            context: ./docker/django
+#      working_dir: /var/www/html/django/mysite
+#      command: python3 manage.py runserver 0.0.0.0:8000
+#      volumes:
+#            - ../django/mysite:/var/www/html/django/mysite
+#      ports:
+##            - "2121:22" # ssh
+#        - "8484:8000"
+#      networks:
+#            - shukran-layer
+#        # env_file: .env
+##        restart: always
 
+    go:
+      build:
+            context: ./docker/go
+      restart: always
+      ports:
+          - 3999:3434
+      volumes:
+        - ../../gimg:/go/src/gimg
+      working_dir: /go/src/gimg
+      command:  tail -f /dev/null
+      networks:
+            - shukran-layer
 #### Nginx ####
 
     nginx:
@@ -27,14 +54,18 @@ services:
             context: ./docker/nginx
             args:
                 - PHP_UPSTREAM=${PHP_UPSTREAM}
-        volumes_from:
-            - volumes_source
+        volumes:
+            - ..:/var/www/html/shukran
         ports:
             - "8001:80"
             - "444:443"
         links:
             - php-fpm
-        env_file: .env
+            - go
+        networks:
+            shukran-layer:
+                ipv4_address: '172.25.0.101'
+        restart: always
 
 ### MySQL ###
 
@@ -46,7 +77,9 @@ services:
         ports:
             - "3306:3306"
         env_file: .env
-
+        restart: always
+        networks:
+            - shukran-layer
 
 ### Phpmyadmin ###
 
@@ -59,7 +92,9 @@ services:
             - 8181:80
         links:
             - mysql
-
+        restart: always
+        networks:
+            - shukran-layer
     redis:
         image: redis:3.2
         ports:
@@ -67,16 +102,43 @@ services:
         volumes:
             - ./data/redis:/data/
         restart: always
+        networks:
+            - shukran-layer
 
+    redis2:
+        image: redis:3.2
+        ports:
+            - 6479:6379
+        volumes:
+            - ./data/redis2:/data/
+        restart: always
+        networks:
+            - shukran-layer
+    sonarqube:
+      image: sonarqube:7.1-alpine
+      container_name: sonarqube
+      hostname: sonarqube
+      ports:
+        - 9100:9000
+      restart: always
+      networks:
+            - shukran-layer
     ### Mailcatcher ###
 
-    mailcatcher:
-        image: tophfr/mailcatcher
-        restart: always
-        ports:
-            - 8003:80
+#    mailcatcher:
+#        image: tophfr/mailcatcher
+#        restart: always
+#        ports:
+#            - 8003:80
+#        restart: always
+#        networks:
+#            - shukran-layer
 
-    volumes_source:
-        image: tianon/true
-        volumes:
-            - ..:/var/www/html/shukran
+networks:
+  shukran-layer:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+          - subnet: 172.25.0.0/24
+
