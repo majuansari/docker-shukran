@@ -1,9 +1,6 @@
-data/*
 logs/*
 vendor/*
 /.idea
-Homestead.json
-Homestead.yaml
 .env
 **/.DS_Store
 /yarn.lock
@@ -16,3 +13,4 @@ robots.txt
 .php_cs.cache
 # exception to the rule
 scratch.md
+workspace.xml
